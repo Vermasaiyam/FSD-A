@@ -1,0 +1,28 @@
+div~p{
+    background-color: antiquewhite;
+}
+
+.fcontainer{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+.fitems{
+    width: 200px;
+    height: 100px;
+    background-color: black;
+    color: antiquewhite;
+    font-size: 20px;
+    border: 20px double orange;
+    margin: 20px;
+}
+
+.fitems.item1{
+    background-color: pink;
+    order: -1;
+}
+.fitems.item2{
+    background-color: aqua;
+    order: 1;
+}
