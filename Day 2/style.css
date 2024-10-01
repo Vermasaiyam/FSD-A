@@ -2,6 +2,15 @@ body{
     background-color: antiquewhite;
 }
 
-div p{
+/* div p{
+    background-color: red;
+}
+div > p{
+    background-color: red;
+} */
+/* div+p{
+    background-color: red;
+} */
+div~p{
     background-color: red;
 }
