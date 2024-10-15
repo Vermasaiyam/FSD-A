@@ -1,11 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="script.js"></script>
 </head>
+
 <body>
-    
+    <button onclick="display()">Click Here</button>
+    <p>hyyyyyyyyyy</p>
+    <p>hiiiiiiiii</p>
+    <p>huuuuuuuuuu</p>
+    <script>
+        let p1 = document.querySelectorAll('p')
+        let display = () => {
+            for (let index = 0; index < p1.length; index++) {
+                // const element = array[index];
+                p1[index].innerHTML = "updated";
+                p1[index].style.backgroundColor = "cyan";
+
+            }
+        }
+
+    </script>
 </body>
+
 </html>
