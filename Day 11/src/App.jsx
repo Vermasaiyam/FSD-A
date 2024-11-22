@@ -25,7 +25,7 @@ const App = () => {
         top: "-15%",
       }}
     >
-      Counter App
+      Systumm Counter
       <div
         style={{
           fontSize: "120%",
